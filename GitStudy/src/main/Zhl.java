@@ -14,7 +14,7 @@ public class Zhl {
 					count++;
 				}
 			}
-			System.out.println(j+"——"+q+"区间:"+count+"个");
+			System.out.println("["+j+","+q+")区间:"+count+"个");
 		}
 	
 		
