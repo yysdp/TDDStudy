@@ -1,28 +1,16 @@
 package test;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-
 import main.ADD;
-
-import org.junit.jupiter.api.Test;
 import main.Read_Sort;
 import main.Sort;
-public class Tast_01 {
+class Test {
+
+
 	
-	
-	public void test_1() {
-		
-		ADD add=new ADD();
-		int ret=add.getResult(1,2);
-		assertEquals(3,ret);
-		
-	}
-	
-	@Test
+    @org.junit.jupiter.api.Test
 	public void test_read_sort() {
 		
 		Read_Sort read_sort=new Read_Sort();
@@ -43,4 +31,5 @@ public class Tast_01 {
 		
 		
 	}
+
 }
